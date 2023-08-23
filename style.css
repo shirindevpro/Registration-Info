@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap");
+* {
+  font-family: "ropa sans";
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(90deg, rgb(174, 0, 255), yellow);
+  display: flex;
+  justify-content: center;
+}
+
+.rowcard {
+  color: black;
+  margin: 20px;
+  margin-top: 100px;
+}
+
+.row {
+  background-color: black;
+  border-radius: 15px;
+  display: flex;
+}
+h1 {
+  text-align: center;
+}
+.information {
+  text-transform: initial;
+  background-color: black;
+  padding: 40px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.imageholder {
+  background-image: url("img.jpg");
+  width: 250px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  border-radius: 15px 0px 0px 15px;
+}
+input {
+  width: 150px;
+  outline: none;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+select {
+  width: 200px;
+}
+button {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(14, 226, 14);
+  color: white;
+  border-radius: 20px;
+}
+
+input[type="text"] {
+  padding: 0.75em 1.5em;
+  line-height: 1em;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(253, 251, 251, 0) 96%,
+    rgb(242, 234, 234) 4%
+  );
+  background-position: -100% 0;
+  padding-left: 0.5em;
+  outline: none;
+}
+
+input[type="date"] {
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(253, 251, 251, 0) 96%,
+    rgb(242, 234, 234) 4%
+  );
+
+  padding-left: 0.5em;
+  outline: none;
+}
+
+input[type="number"] {
+  padding: 0.75em 1.5em;
+  line-height: 1em;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(253, 251, 251, 0) 96%,
+    rgb(242, 234, 234) 4%
+  );
+  background-position: -100% 0;
+  padding-left: 0.5em;
+  outline: none;
+}
+
+select {
+  padding: 0.75em 1.5em;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(253, 251, 251, 0) 96%,
+    rgb(242, 234, 234) 4%
+  );
+  outline: none;
+}
